@@ -35,7 +35,9 @@ const show = ref(false);
   <div>
     我要新加内容test我要新加内容test我要新加内容test
     <input v-focus />
+    git checkout master git checkout master
     <div v-copy="test">复制 {{ $translate('greetings.hello') }}</div>
+    git checkout master git checkout master git checkout master git checkout master
     <button @click="show = !show">Toggle</button>
     <Transition  mode="out-in" name="custom-classes" enter-active-class="animate__animated animate__swing"
       leave-active-class="animate__animated animate__flash">
