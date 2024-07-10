@@ -33,6 +33,7 @@ const show = ref(false);
 
 <template>
   <div>
+    我要新加内容test我要新加内容test我要新加内容test
     <input v-focus />
     <div v-copy="test">复制 {{ $translate('greetings.hello') }}</div>
     <button @click="show = !show">Toggle</button>
