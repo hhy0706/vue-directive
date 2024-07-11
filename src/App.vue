@@ -43,7 +43,7 @@ const show = ref(false);
       leave-active-class="animate__animated animate__flash">
       <p v-if="show"> Hello here is some bouncy text!</p>
     </Transition>
-    防抖啊
+    防抖啊221
     <!-- <div v-debounce="() => debounce('test111')">
     防抖啊
   </div> -->
