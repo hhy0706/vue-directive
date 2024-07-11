@@ -33,16 +33,17 @@ const show = ref(false);
 
 <template>
   <div>
-    我要新加内容test我要新加内容test我要新加内容test
-    <input v-focus />
+    我要新加内容test我要新加内容test我要新加内容test appsadasd
+    
     git checkout master git checkout master
-    <div v-copy="test">复制 {{ $translate('greetings.hello') }}</div>
+    <div>appsad复制asd</div>
     git checkout master git checkout master git checkout master git checkout master
     <button >Toggle adada</button>
     <Transition  mode="out-in" name="custom-classes" enter-active-class="animate__animated animate__swing"
       leave-active-class="animate__animated animate__flash">
       <p v-if="show"> Hello here is some bouncy text!</p>
     </Transition>
+    防抖啊
     <!-- <div v-debounce="() => debounce('test111')">
     防抖啊
   </div> -->
