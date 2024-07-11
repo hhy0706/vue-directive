@@ -38,7 +38,7 @@ const show = ref(false);
     git checkout master git checkout master
     <div v-copy="test">复制 {{ $translate('greetings.hello') }}</div>
     git checkout master git checkout master git checkout master git checkout master
-    <button @click="show = !show">Toggle</button>
+    <button >Toggle adada</button>
     <Transition  mode="out-in" name="custom-classes" enter-active-class="animate__animated animate__swing"
       leave-active-class="animate__animated animate__flash">
       <p v-if="show"> Hello here is some bouncy text!</p>
